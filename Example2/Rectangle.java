@@ -1,4 +1,4 @@
-package example1.Example2;
+package Example2;
 
 public class Rectangle {
     private double length;

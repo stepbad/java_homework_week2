@@ -1,3 +1,5 @@
+package example1;
+
 public class Nurse {
     private int id;
     private String name;

@@ -14,6 +14,39 @@ public class Doctor {
         this.yearsOfExperience = yearsOfExperience;
     }
 
+    // Getters and Setters
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSpecialization() {
+        return specialization;
+    }
+
+    public void setSpecialization(String specialization) {
+        this.specialization = specialization;
+    }
+
+    public int getYearsOfExperience() {
+        return yearsOfExperience;
+    }
+
+    public void setYearsOfExperience(int yearsOfExperience) {
+        this.yearsOfExperience = yearsOfExperience;
+    }
+
     // Methods
     public void diagnosePatient(String patientName) {
         System.out.println("Dr. " + name + " is diagnosing " + patientName + ".");
@@ -27,7 +60,6 @@ public class Doctor {
         System.out.println("Dr. " + name + " is performing surgery on " + patientName + ".");
     }
 
-    // toString method for displaying doctor details
     
     public String toString() {
         return "Doctor [ID=" + id + ", Name=" + name + ", Specialization=" + specialization +

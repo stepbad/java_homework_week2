@@ -16,6 +16,47 @@ public class Patient {
         this.assignedDoctor = assignedDoctor;
     }
 
+    // Getters and Setters
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getAilment() {
+        return ailment;
+    }
+
+    public void setAilment(String ailment) {
+        this.ailment = ailment;
+    }
+
+    public String getAssignedDoctor() {
+        return assignedDoctor;
+    }
+
+    public void setAssignedDoctor(String assignedDoctor) {
+        this.assignedDoctor = assignedDoctor;
+    }
+
     // Methods
     public void admit() {
         System.out.println(name + " has been admitted to the hospital.");
@@ -30,7 +71,7 @@ public class Patient {
         System.out.println("Medical record of " + name + " has been updated with ailment: " + ailment);
     }
 
-    // toString method for displaying patient details
+    
     public String toString() {
         return "Patient [ID=" + id + ", Name=" + name + ", Age=" + age +
                ", Ailment=" + ailment + ", Assigned Doctor=" + assignedDoctor + "]";
